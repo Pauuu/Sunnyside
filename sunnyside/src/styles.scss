@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Imported fonts
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+
+// des = desaturated
+// moder = moderate
+// wgs = weights
+:root {
+  // Primary
+  --soft-red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --dark-des-cyan: hsl(167, 40%, 24%);
+  --dark-blue: hsl(198, 62%, 26%);
+  --dark-moder-cyan: hsl(167, 44%, 70%);
+
+  // Neutral
+  --very-dark-des-blue: hsl(212, 27%, 19%);
+  --very-dark-graysh-blue: hsl(213, 9%, 39%);
+  --dark-graysh-blue: hsl(232, 10%, 55%);
+  --graysh-blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+
+  // Fonts
+  --font-barlow: 'Barlow', sans-serif;;
+  --font-wgs-600: 600;
+
+  --font-fraunces: 'Fraunces', serif;
+  --font-wgs-700: 700;
+  --font-wgs-900: 900;
+}
+
+html,
+body {
+  margin: 0;
+  font-size: 18px;
+}
